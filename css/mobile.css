@@ -1,0 +1,91 @@
+@media(max-width: 576px) {
+ /* navbar */
+.navbar {
+    display: block;
+    
+}
+.ten {
+    display: none !important;
+}
+.navbar div {
+    border: 1px solid #ffffff;
+    height: 25px;
+}
+
+/* mục tiêu & thông tin */
+.thong-tin {
+    display: flex;
+    flex-direction: column;
+}
+.thong-tin div{
+    padding: 30px;
+}
+.muc-tieu-nghe-nghiep {
+    padding: 0px;
+}
+h2 {
+    text-align: center;
+    margin: 10px;
+}
+.link {
+    margin: 0px;
+}
+/* thông tin nghề nghiệp */
+/* sao cái title và icon không thẳng hàng */
+.thong-tin-nghe-nghiep {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+.title {
+    padding: 0px;
+    justify-self: center;
+    align-self: center;
+    margin: 0px;
+}
+
+/* chứng chỉ */
+.chung-chi {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+.chung-chi-1 {
+    border-right: 1px solid #ffffff;
+}
+.chung-chi img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.chung-chi-1, .chung-chi-2, .chung-chi-3 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.description {
+    padding: 0px;
+}
+
+/* dự án */
+.du-an {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.image {
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+.main {
+    font-size: 15px;
+}
+.du-an {
+    font-size: 14px;
+}
+
+/* FOOTER */
+.footer {
+    margin: 0;
+    margin-top: 30px;
+}
+}
